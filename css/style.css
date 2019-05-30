@@ -2,3 +2,24 @@
     margin: 0;
     padding: 0;
 } 
+
+body{
+    background: green;
+}
+
+/*header nero*/
+header{
+    color: white;
+    background-color: black;
+    position: relative;
+    height:100px;
+}
+
+/*titolo bianco e centrato*/
+#title{
+    color: white;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

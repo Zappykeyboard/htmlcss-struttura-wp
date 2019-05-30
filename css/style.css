@@ -5,6 +5,7 @@
 
 body{
     background: green;
+    margin: 30px 20%;
 }
 
 /*header nero*/
@@ -71,7 +72,7 @@ nav{
 .widget-content{
     height:140px;
     background-color: chocolate;
-    margin: 5px;
+    margin: 10px;
 }
 
 /*clearfix #body-content*/

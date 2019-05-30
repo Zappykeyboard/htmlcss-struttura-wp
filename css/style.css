@@ -15,11 +15,24 @@ header{
     height:100px;
 }
 
-/*titolo bianco e centrato*/
+/*titolo header bianco e centrato*/
 #title{
     color: white;
     position: absolute;
     left:50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+/*barra di navigazione grigia*/
+nav{
+    background-color: grey;
+    text-align: center;
+}
+
+/*link di navigazione*/
+#link-list li{
+    list-style: none;
+    color: white;
+    display: inline-block;   
 }

@@ -58,3 +58,20 @@ nav{
     width: 50%;
     height: 400px;
 }
+
+/*colonna dei widget*/
+#widget-column{
+    background-color: burlywood;
+    float: right;
+    width: 25%;
+    height: auto;
+}
+
+/*stile contenuti widget*/
+.widget-content{
+    height:140px;
+    background-color: chocolate;
+    margin: 5px;
+}
+
+/*clearfix #body-content*/

@@ -42,11 +42,12 @@ nav{
 #body-content{
     height: auto;
     position: relative;
-    background-color: hotpink
+    background-color: rgb(228, 137, 152);
 }
 
 /*imposto margine colonne*/
 .column{
+    margin-top: 25px;
     margin-bottom: 25px;
 }
 /* barra degli rss bianca a sinistra*/
@@ -67,7 +68,7 @@ nav{
 
 /*colonna dei widget*/
 #widget-column{
-    background-color: burlywood;
+    /* background-color: burlywood; */
     float: right;
     width: 25%;
     height: auto;

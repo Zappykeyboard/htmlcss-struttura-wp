@@ -36,3 +36,25 @@ nav{
     color: white;
     display: inline-block;   
 }
+
+/*imposto la sezione principale*/
+#body-content{
+    height: 700px;
+    position: relative;
+}
+
+/* barra degli rss bianca a sinistra*/
+#rss-column{
+    background-color: white;
+    float:left;
+    width:25%;
+    height: 300px;
+}
+
+/* colonna dell'articolo*/
+#article-column{
+    background-color: aqua;
+    float: left;
+    width: 50%;
+    height: 400px;
+}

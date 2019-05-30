@@ -86,3 +86,10 @@ nav{
     display: table;
     clear: both;
 }
+
+/*stile footer*/
+footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}

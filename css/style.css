@@ -40,10 +40,15 @@ nav{
 
 /*imposto la sezione principale*/
 #body-content{
-    height: 700px;
+    height: auto;
     position: relative;
+    background-color: hotpink
 }
 
+/*imposto margine colonne*/
+.column{
+    margin-bottom: 25px;
+}
 /* barra degli rss bianca a sinistra*/
 #rss-column{
     background-color: white;
@@ -76,3 +81,8 @@ nav{
 }
 
 /*clearfix #body-content*/
+#body-content::after{
+    content: "";
+    display: table;
+    clear: both;
+}
